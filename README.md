@@ -102,6 +102,16 @@ The database schema establishes the following relationships between tables:
 
 These relationships help maintain data consistency and enable data retrieval across related entities.
 
+## Instructions to Download and Use Database
+
+- **Download the SQL File:** On the SQL file's page, click on the "Download" button or right-click on the "Raw" button and select "Save Link As" or "Save Target As" to download the file to your PC. Choose a location on your computer where you want to save the SQL file.
+- **Install a Database Management System:** If you don't have a database management system (DBMS) installed on your PC, you'll need to install one. Some popular options include MySQL, PostgreSQL, SQLite, or Microsoft SQL Server. Choose the DBMS that best suits your requirements and follow the installation instructions specific to that system.
+- **Open the DBMS:** Launch the installed DBMS software. This may involve opening a command prompt, accessing a graphical interface, or running an application.
+- **Create a New Database:** Within the DBMS, create a new database where you want to import the SQL file. Refer to the documentation or user guide of your specific DBMS for instructions on creating a new database.
+- **Import the SQL File:** Once the database is created, locate the option to import or execute an SQL script within the DBMS. This option may vary depending on the DBMS you are using. Use the option to import the previously downloaded SQL file. Provide the path to the SQL file when prompted.
+- **Execute the SQL File:** After importing the SQL file, execute it within the DBMS. This will create the tables and define the schema based on the SQL statements in the file. The DBMS will process the SQL file, and if there are no errors, the tables and relationships will be created in the database.
+- **Verify the Database:** Verify that the SQL file was executed successfully by checking the DBMS for the presence of the newly created tables and their respective data.
+
 ## Notes
 - It is recommended to review and customize the data types and field lengths of the columns according to the specific requirements of your application.
 - The provided schema assumes the usage of a DBMS that supports the specified SQL syntax. Compatibility should be verified with the targeted DBMS before execution.
